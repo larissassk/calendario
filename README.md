@@ -14,7 +14,7 @@ Repositório criado para a disciplina de Linguagem de Programação I para reali
 
 ## 🔧 Funcionalidades
 Esse calendario tem uma opção em que vocÊ seleciona o dia e a cor logo marca no calendario.  
-![image](img/vid-calendario)
+![gif"](vid-calendario)  
 
 ### 🛠️ Tecnologias Utilizadas
    - `github`  
