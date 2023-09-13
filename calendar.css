@@ -1,14 +1,29 @@
-
 table, th, td, tr{
     border: 1px solid black;
     border-collapse: collapse;
+    margin-top: 10%;
+    margin-left: 35%;
+    font-family: sans-serif;
+    background-color: white;
+    color: black;
+}
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+th{
+
+    color: rgb(161, 160, 160)
 }
 td{
-    text-align: center;
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
 }
 #feriado{
     color: red;
 }
+body {
+    background-color: rgb(236, 236, 236);
+}
 
+ 
