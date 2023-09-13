@@ -13,7 +13,8 @@ Repositório criado para a disciplina de Linguagem de Programação I para reali
 Repositório criado para a disciplina de Linguagem de Programação I para realização da atividade de criação de calendário iterativo.
 
 ## 🔧 Funcionalidades
-Esse calendario tem uma opção em que vocÊ seleciona o dia e a cor logo marca no calendario.
+Esse calendario tem uma opção em que vocÊ seleciona o dia e a cor logo marca no calendario.  
+![image](img/vid-calendario)
 
 ### 🛠️ Tecnologias Utilizadas
    - `github`  
