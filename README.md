@@ -7,14 +7,14 @@ Repositório criado para a disciplina de Linguagem de Programação I para reali
 [Tecnologias Utilizadas](#tecnologias-utilizadas)     
 [Autores](#autores)  
 
-# 📅 Calendario
+# 📅 Calendário
 
-## 📋 descrição
+## 📋 Descrição
 Repositório criado para a disciplina de Linguagem de Programação I para realização da atividade de criação de calendário iterativo.
 
 ## 🔧 Funcionalidades
-Esse calendario tem uma opção em que vocÊ seleciona o dia e a cor logo marca no calendario.  
-![gif"](vid-calendario)  
+nesse calendário voce pode escolher o dia e selecionar a cor, assim automaticamente irá ser marcado no calendário.<br><br>
+![gif"](https://github.com/larissassk/calendario/blob/main/img/vid-calendario.gif)  
 
 ### 🛠️ Tecnologias Utilizadas
    - `github`  
