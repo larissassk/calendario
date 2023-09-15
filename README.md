@@ -1,5 +1,3 @@
-# calendario
-Repositório criado para a disciplina de Linguagem de Programação I para realização da atividade de criação de calendário iterativo.  
 
 # Índice
 [calendario](#--calend%C3%A1rio)  
