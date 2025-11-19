@@ -1,31 +1,95 @@
-table, th, td, tr{
-    border: 1px solid black;
-    border-collapse: collapse;
-    margin-top: 5%;
-    margin-left: 35%;
-    font-family: sans-serif;
-    background-color: white;
-    color: black;
-}
-h1{
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
-}
-th{
-
-    color: rgb(161, 160, 160)
-}
-td{
-    width: 50px;
-    height: 50px;
-}
-#feriado{
-    color: red;
-}
+/* RESET BÁSICO E ESTILO DO CORPO */
 body {
-    background-color: rgb(236, 236, 236);
+    /* Fundo levemente cinza claro para contraste */
+    background-color: #f4f7f6; 
+    display: flex; /* Flexbox para centralizar o conteúdo facilmente */
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333; /* Texto escuro padrão */
+}
+
+/* CONTAINER PRINCIPAL DO CALENDÁRIO */
+#calendar {
+    border-collapse: separate; /* Permite border-radius nas células */
+    border-spacing: 0;
+    width: 90%; /* Ajuste a largura conforme necessário */
+    max-width: 600px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para efeito de "card" */
+    border-radius: 10px; /* Bordas arredondadas */
+    overflow: hidden; /* Garante que as bordas arredondadas sejam aplicadas na tabela */
+    background-color: #fff; /* Fundo da tabela branco */
+    margin-bottom: 25px;
+}
+
+/* CABEÇALHO (DIAS DA SEMANA) */
+thead th {
+    /* Cor roxa leve (combinando com seu tema) */
+    background-color: #800080; 
+    color: #fff; /* Texto branco */
+    font-weight: 600;
+    padding: 15px 10px;
     text-align: center;
 }
 
+/* CÉLULAS DE DADOS (DIAS) */
+td {
+    width: 60px; /* Mais largura */
+    height: 60px; /* Mais altura */
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 500;
+    border: 1px solid #eee; /* Bordas muito leves, quase invisíveis */
+    transition: background-color 0.2s, color 0.2s; /* Transição suave para interatividade */
+}
 
- 
+/* EFEITO AO PASSAR O MOUSE (UX) */
+td:hover {
+    cursor: pointer;
+    background-color: #f0f0f0; /* Feedback visual ao interagir */
+}
+
+/* ESTILO PARA FERIADOS (ID Feriado) */
+#feriado {
+    color: #e74c3c; /* Vermelho claro para destaque */
+    font-weight: bold;
+}
+
+/* ESTILOS PARA OS CONTROLES (SELECT/INPUT) */
+label {
+    margin-right: 10px;
+    font-size: 0.95em;
+    font-weight: 500;
+}
+
+select, input[type="number"], input[type="submit"] {
+    padding: 8px 12px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+
+/* ESTILO DO BOTÃO DE SUBMISSÃO (Ação principal) */
+input[type="submit"] {
+    background-color: #800080; /* Cor de destaque (Roxo) */
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #6a006a; /* Escurece um pouco ao passar o mouse */
+}
+
+
+/* CORES DINÂMICAS (Para o JS usar - Exemplo) */
+/* Se a função 'colorirdata()' aplicar estas classes, ficará melhor do que mudar o style.backgroundColor */
+
+.lightBlue { background-color: #b3e5fc; color: #000; }
+.lightGreen { background-color: #c8e6c9; color: #000; }
+.lightPink { background-color: #f8bbd0; color: #000; }
+.slateBlue { background-color: #6a5acd; color: #fff; }
