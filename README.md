@@ -2,48 +2,43 @@
 
 ## 📋 Descrição do Projeto
 
-Este repositório contém uma aplicação web simples desenvolvida como atividade para a disciplina de Linguagem de Programação I. O projeto implementa um **calendário interativo** que demonstra a manipulação dinâmica de elementos da interface (DOM) e lógica de eventos usando **JavaScript puro**.
+Este projeto foi desenvolvido para a disciplina de Linguagem de Programação I. É um **calendário interativo** que serve como demonstração prática das habilidades de **Desenvolvimento Frontend**, focando na manipulação direta da interface e lógica de eventos com JavaScript puro.
 
 ---
 
-## ✨ Funcionalidades
+## 💡 Funcionalidades e Experiência do Usuário (UX)
 
-O calendário permite que o usuário adicione eventos diários de forma visual:
+O objetivo principal é permitir que o usuário personalize o calendário de forma simples e visual:
 
-* **Seleção de Data e Cor:** O usuário escolhe o dia (`<input type="number">`) e a cor (`<select>`) do evento.
-* **Marcação Dinâmica:** Ao clicar no botão, a função JavaScript (`colorirdata()`) aplica a cor selecionada à célula (`<td>`) correspondente no calendário.
-* **Marcações Fixas (HTML/CSS):** Algumas datas já possuem marcações por `id="feriado"`, demonstrando o uso de estilização específica.
+* **Marcação Dinâmica:** O usuário pode **escolher o dia e a cor** através dos controles de formulário.
+* **Interatividade em Tempo Real:** A cor é aplicada automaticamente à célula do calendário (elemento `<td>`), demonstrando a manipulação do DOM.
+* **Destaque:** Demonstração de marcações fixas (ex: feriados) usando estilização CSS.
 
-| Demonstração |
-| :---: |
-|  (Se o GIF estiver disponível na pasta `img`) |
+![Demonstração do Calendário Interativo](https://github.com/larissassk/calendario/blob/main/img/vid-calendario.gif)
 
 ---
 
-## ⚙️ Stack e Habilidades de Frontend
+## ⚙️ Stack e Habilidades Técnicas
 
-Este projeto destaca o uso fundamental de tecnologias de Front-end e manipulação do DOM.
+Este projeto destaca o uso fundamental de tecnologias de Front-end e lógica de programação.
 
 ### 🛠️ Tecnologias Utilizadas
 
-* **Lógica Principal:** JavaScript (JS)
-* **Estrutura:** HTML5 (Uso da tag `<table>` para layout)
-* **Estilização:** CSS3
+| Categoria | Tecnologia | Uso Principal |
+| :---: | :---: | :--- |
+| **Estrutura** | HTML5 | Criação da tabela (`<table>`) e elementos de controle (`<select>`, `<input>`). |
+| **Estilização** | CSS3 | Estilização moderna e responsiva do calendário (melhorias visuais e UX). |
+| **Lógica** | JavaScript (JS) | **Manipulação do DOM**, coleta de dados de formulário e implementação da função de marcação (`onclick`). |
 
-### 💡 Habilidades Demonstradas
+### 🧠 Habilidades Demonstradas
 
-* **Manipulação de DOM:** Uso de JavaScript para selecionar e manipular o estilo (`style.backgroundColor`) de elementos HTML através de `id`s.
-* **Coleta de Dados de Formulário:** Coleta e processamento de valores (`.value`) de `input` (dia) e `select` (cor) no JS.
-* **Lógica de Eventos:** Acionamento de uma função via evento **`onclick`** (`colorirdata()`) para execução da lógica de marcação.
-* **Uso de `id` para Interação:** Demonstração de como atribuir `id`s dinamicamente (ou implicitamente) aos dias para que o JavaScript possa acessá-los.
+* **Manipulação do DOM:** Uso do JS para selecionar elementos via `id` e modificar seus estilos (`style`).
+* **Lógica de Eventos:** Acionamento de uma função JavaScript a partir de uma interação do usuário (`onclick`).
 
 ---
 
 ## ✒️ Autoria e Contato
 
 * **Autora:** Larissa Manrique
-* **Repositório Ativo em:** `larissassk.github.io/calendario/`
-
-| GitHub | LinkedIn |
-| :---: | :---: |
-| [larissassk](https://github.com/larissassk) |
+* **GitHub:** [larissassk](https://github.com/larissassk)
+* **LinkedIn:** [larissa-manrique](https://www.linkedin.com/in/larissa-manrique-6a1473245)
