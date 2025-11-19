@@ -14,7 +14,7 @@ O objetivo principal é permitir que o usuário personalize o calendário de for
 * **Interatividade em Tempo Real:** A cor é aplicada automaticamente à célula do calendário (elemento `<td>`), demonstrando a manipulação do DOM.
 * **Destaque:** Demonstração de marcações fixas (ex: feriados) usando estilização CSS.
 
-![Demonstração do Calendário Interativo](https://github.com/larissassk/calendario/blob/main/img/vid-calendario.gif)
+![Demonstração do Calendário Interativo](/img/calendario-demonstracao.png)
 
 ---
 
